@@ -1,3 +1,5 @@
 const withWPEHeadless = require('@wpengine/headless/nextConfig');
 
-module.exports = withWPEHeadless();
+module.exports = {
+  basePath: '/atlas',
+}
